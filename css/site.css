@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #181818;
+  color: #e6e6e6;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  width: 100%;
+}
+
+.box {
+  width: 50%;
+  float: left;
+  padding: 5px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  align-items: center;
+  transition: 500ms;
+}
+
+ul {
+  list-style-type: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #3232324d
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #e6e6e6;
+  font-size: small;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #41414180;
+}
+
+.active {
+  background-color: #4c66afb3;
+  font-weight: 600;
+  font-size: medium;
+}
+
+.active:hover {
+  background-color: #4c66afe6;
+}
+
+.conteudo {
+  height: 500px;
+  text-align: justify;
+}
+
+h2 {
+  color: #bdb76b;
+}
+
+h3 {
+  color: #8fbc8f;
+  text-align: center;
+}
+
+.botao {
+  color: #8fbc8f;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.botao:hover, .botao:active {
+  color: #69e469;
+  text-decoration: underline;
+}
+
+.rodape {
+  width: 100%;
+  height: 200px;
+}
